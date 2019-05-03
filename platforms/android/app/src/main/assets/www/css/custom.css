@@ -1,0 +1,77 @@
+
+.header{
+	background-color: purple;
+	padding: 20px 80px;
+	/*margin-bottom: 20px;*/
+
+	}
+.fas {
+	color: white;
+	font-size: 40px;
+}
+
+.box{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.shadow{
+	box-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.active{
+	background-color: purple;
+	color:white;
+	border-color: inherit;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: purple;
+    border-color: purple;
+}
+
+.far{
+	color: white;
+	font-size: 40px;
+}
+
+.body{
+	margin-top: 40px;
+	/*padding: 10px;*/
+
+	
+}
+
+.btn-outline-primary{
+	border-color: purple;
+	color: purple;
+	font-weight: bold
+}
+
+.btn-outline-primary:hover{
+	background-color: purple;
+	color:white;
+	border-color: inherit;
+}
+
+#content{
+	/*margin-top: 40px;*/
+}
+
+.floatright{
+	width: 80%;
+	display: inline;
+	/*float: left;*/
+	/*position: absolute;*/
+	/*display: inline-flex;*/
+}
+
+.floatLeft{
+	width: 40%;
+	display: inline;
+	/*height: 100%;*/
+	/*position: absolute;*/
+	/*float: left;*/
+	/*display: inline-flex;*/
+	/*background: red;*/
+}
